@@ -1,0 +1,25 @@
+canvas{
+    width: 700px;
+    height: 525px;
+}
+
+@media only screen and (max-width: 992px) {
+    canvas{
+        width: 500px;
+        height: 425px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    canvas{
+        width: 400px;
+        height: 325px;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    canvas{
+        width: 300px;
+        height: 225px;
+    }
+}
